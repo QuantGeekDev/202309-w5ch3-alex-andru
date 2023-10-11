@@ -12,7 +12,7 @@ class Escudero extends Personaje {
 
   communicate() {
     const announcement = "Soy un loser";
-    super.communicate(announcement);
+    return super.communicate(announcement);
   }
 }
 

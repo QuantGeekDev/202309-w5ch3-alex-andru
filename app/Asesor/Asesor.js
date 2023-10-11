@@ -9,7 +9,7 @@ class Asesor extends Personaje {
 
   communicate() {
     const announcement = "No se por que, creo que voy a morir pronto";
-    super.communicate(announcement);
+    return super.communicate(announcement);
   }
 }
 
