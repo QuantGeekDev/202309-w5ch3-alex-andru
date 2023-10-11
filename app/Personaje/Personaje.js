@@ -5,11 +5,11 @@ class Personaje {
   isAlive;
   show = "Game of Thrones";
 
-  constructor(name, family, age, isAlive = false) {
+  constructor(name, family, age) {
     this.name = name;
     this.family = family;
     this.age = age;
-    this.isAlive = isAlive;
+    this.isAlive = true;
   }
 
   die() {
