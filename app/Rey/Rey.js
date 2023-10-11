@@ -1,10 +1,15 @@
-import Personaje from "../Personaje/Personaje";
+import Personaje from "../Personaje/Personaje.js";
 
 class Rey extends Personaje {
   yearsOfRule;
-  constructor(yearsOfRule, name, family, age, isAlive) {
-    super(name, family, age, isAlive);
+  constructor(yearsOfRule, name, family, age) {
+    super(name, family, age);
     this.yearsOfRule = yearsOfRule;
+  }
+
+  communicate() {
+    const announcement = "Vais a morir todos";
+    return super.communicate(announcement);
   }
 }
 

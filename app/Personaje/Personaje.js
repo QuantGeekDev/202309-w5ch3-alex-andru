@@ -16,8 +16,8 @@ class Personaje {
     this.isAlive = false;
   }
 
-  communicate() {
-    return "";
+  communicate(announcement) {
+    return announcement;
   }
 }
 
